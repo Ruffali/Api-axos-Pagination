@@ -1,0 +1,17 @@
+/* @font-face {
+  font-family: Gotham;
+  src        : url(./assets/fonts/Gotham_Medium_Regular.ttf)
+} */
+
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing     : border-box;
+  padding        : 0;
+  margin         : 0;
+  word-break     : break-word;
+}
+
+/* body {
+  font-family: Gotham;
+} */
