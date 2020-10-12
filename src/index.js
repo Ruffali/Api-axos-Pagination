@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import axios from "axios";
+import axios from 'axios';
+import { BrowserRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
-axios.defaults.baseURL="https://jsonplaceholder.typicode.com/";
+axios.defaults.baseURL = "https://jsonplaceholder.typicode.com/";
 
 ReactDOM.render(
-    <App />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
